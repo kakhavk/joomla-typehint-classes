@@ -1,4 +1,8 @@
 <?php
+/**
+ * version 0.2
+ */
+
 
 class JRegistry extends Joomla\Registry\Registry
 {
@@ -50,7 +54,7 @@ class JDataSet extends Joomla\Data\DataSet
     
 }
 
-class JDataDumpable extends Joomla\Data\DumpableInterface
+interface JDataDumpable extends Joomla\Data\DumpableInterface
 {
     
 }
@@ -85,11 +89,13 @@ class JApplicationDaemon extends Joomla\CMS\Application\DaemonApplication
     
 }
 
+# TODO: JApplicationSite can not extend final class
+/*
 class JApplicationSite extends Joomla\CMS\Application\SiteApplication
 {
     
 }
-
+*/
 class JApplicationWeb extends Joomla\CMS\Application\WebApplication
 {
     
@@ -180,7 +186,7 @@ class JControllerForm extends Joomla\CMS\MVC\Controller\FormController
     
 }
 
-class JTableInterface extends Joomla\CMS\Table\TableInterface
+interface JTableInterface extends Joomla\CMS\Table\TableInterface
 {
     
 }
@@ -415,7 +421,7 @@ abstract class JComponentRouterBase extends Joomla\CMS\Component\Router\RouterBa
     
 }
 
-class JComponentRouterInterface extends Joomla\CMS\Component\Router\RouterInterface
+interface JComponentRouterInterface extends Joomla\CMS\Component\Router\RouterInterface
 {
     
 }
@@ -445,7 +451,7 @@ class JComponentRouterRulesNomenu extends Joomla\CMS\Component\Router\Rules\Nome
     
 }
 
-class JComponentRouterRulesInterface extends Joomla\CMS\Component\Router\Rules\RulesInterface
+interface JComponentRouterRulesInterface extends Joomla\CMS\Component\Router\Rules\RulesInterface
 {
     
 }
@@ -515,10 +521,13 @@ class JHelperTags extends Joomla\CMS\Helper\TagsHelper
     
 }
 
+# TODO: JHelperUsergroups can not extend final class
+/*
 class JHelperUsergroups extends Joomla\CMS\Helper\UserGroupsHelper
 {
     
 }
+*/
 
 class JLayoutBase extends Joomla\CMS\Layout\BaseLayout
 {
@@ -535,12 +544,12 @@ class JLayoutHelper extends Joomla\CMS\Layout\LayoutHelper
     
 }
 
-class JLayout extends Joomla\CMS\Layout\LayoutInterface
+interface JLayout extends Joomla\CMS\Layout\LayoutInterface
 {
     
 }
 
-class JResponseJson extends Joomla\CMS\Response\JsonResponse
+abstract class JResponseJson extends Joomla\CMS\Response\JsonResponse
 {
     
 }
@@ -620,7 +629,7 @@ class JSchemaChangeitemSqlsrv extends Joomla\CMS\Schema\ChangeItem\SqlsrvChangeI
     
 }
 
-class JUcm extends Joomla\CMS\UCM\UCM
+interface JUcm extends Joomla\CMS\UCM\UCM
 {
     
 }
@@ -700,10 +709,13 @@ abstract class JButton extends Joomla\CMS\Toolbar\ToolbarButton
     
 }
 
+# TODO: JVersion can not extend final class
+/*
 class JVersion extends Joomla\CMS\Version
 {
     
 }
+*/
 
 class JAuthentication extends Joomla\CMS\Authentication\Authentication
 {
@@ -720,7 +732,7 @@ class JBrowser extends Joomla\CMS\Environment\Browser
     
 }
 
-class JAssociationExtensionInterface extends Joomla\CMS\Association\AssociationExtensionInterface
+interface JAssociationExtensionInterface extends Joomla\CMS\Association\AssociationExtensionInterface
 {
     
 }
@@ -905,7 +917,7 @@ class JHttpResponse extends Joomla\CMS\Http\Response
     
 }
 
-class JHttpTransport extends Joomla\CMS\Http\TransportInterface
+interface JHttpTransport extends Joomla\CMS\Http\TransportInterface
 {
     
 }
@@ -1240,7 +1252,7 @@ class JCacheStorageXcache extends Joomla\CMS\Cache\Storage\XcacheStorage
     
 }
 
-class JCacheException extends Joomla\CMS\Cache\Exception\CacheExceptionInterface
+interface JCacheException extends Joomla\CMS\Cache\Exception\CacheExceptionInterface
 {
     
 }
@@ -1605,7 +1617,7 @@ class JCrypt extends Joomla\CMS\Crypt\Crypt
     
 }
 
-class JCryptCipher extends Joomla\CMS\Crypt\CipherInterface
+interface JCryptCipher extends Joomla\CMS\Crypt\CipherInterface
 {
     
 }
@@ -1615,7 +1627,7 @@ class JCryptKey extends Joomla\CMS\Crypt\Key
     
 }
 
-class JCryptPassword extends Joomla\CMS\Crypt\CryptPassword
+interface JCryptPassword extends Joomla\CMS\Crypt\CryptPassword
 {
     
 }
@@ -1735,7 +1747,7 @@ class JFeedParserAtom extends Joomla\CMS\Feed\Parser\AtomParser
     
 }
 
-class JFeedParserNamespace extends Joomla\CMS\Feed\Parser\NamespaceParserInterface
+interface JFeedParserNamespace extends Joomla\CMS\Feed\Parser\NamespaceParserInterface
 {
     
 }
