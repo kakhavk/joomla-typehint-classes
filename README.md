@@ -1,8 +1,7 @@
 # joomla-typehint-classes
-The most popular IDE's like (netbeans, eclipse, phpstorm) have autocompletion and type hint support for many framework and cms excluding Joomla. Because Joomla has file classmap.php where classes are registered and in project used aliases of classes, IDE's can't suggest class paths and autocomplete or go to the class or methods declarations.
-This file helps some IDE's like NetBeans, Phpstorm, Eclipse, etc... to use type hints autocompletion in Joomla projects.
+This class helps to enable autocompletion and type hint support in most popular IDE's like (netbeans, eclipse, phpstorm).
 
 
 ### Usage:
 
-Put the file classes.php which is placed in folder predefined, to your project folder after that IDE's can use Joomla typehints and autocompleting.
+Just copy file classes.php which is placed in folder predefined, to your project folder after that IDE's can use Joomla typehints and autocompletion.
