@@ -1,5 +1,5 @@
 # joomla-typehint-classes
-This class helps to enable autocompletion and type hint support in most popular IDE's like (netbeans, eclipse, phpstorm).
+This class helps to enable Joomla autocompletion and type hint support in most popular IDE's like (netbeans, eclipse, phpstorm).
 
 
 ### Usage:
