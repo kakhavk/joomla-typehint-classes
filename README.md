@@ -1,4 +1,4 @@
-# joomla-typehint-classes
+# joomla-typehint-classes (For Joomla 3.9)
 This class helps to enable Joomla autocompletion and type hint support in most popular IDE's like (netbeans, eclipse, phpstorm).
 
 

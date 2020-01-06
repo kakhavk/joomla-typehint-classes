@@ -3,3 +3,6 @@ version 0.2 changes
 Fixed implementing interfaces
 
 TODO: final classes can not extend
+
+version 0.3 changes
+Fixed: removed "abstract" before "class JResponseJson"

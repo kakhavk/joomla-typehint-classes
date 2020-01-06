@@ -1,6 +1,6 @@
 <?php
 /**
- * version 0.2
+ * version 0.3
  */
 
 
@@ -549,7 +549,7 @@ interface JLayout extends Joomla\CMS\Layout\LayoutInterface
     
 }
 
-abstract class JResponseJson extends Joomla\CMS\Response\JsonResponse
+class JResponseJson extends Joomla\CMS\Response\JsonResponse
 {
     
 }
